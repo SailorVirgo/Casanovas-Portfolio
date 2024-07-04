@@ -1,66 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Portfolio</title>
-    <link rel="stylesheet" href="./assets/style.css">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="/assets/style.css">
 </head>
-
 <body>
-
-    <header>
-        <div class="container">
-            <h1>Eric Casanova</h1>
-            <img src="./assets/images/pokeball-one.png" alt="A picture of Eric Casanova">
+    <div class="container">
+        <div class="header">
+            <h1>MySpace-style Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
         </div>
-    </header>
-    <section class="ogred"></section>
-
-    <nav>
-        <div class="container">
-            <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+        <div class="profile-pic">
+            <img src="profile.jpg" alt="Profile Picture">
         </div>
-    </nav>
-
-    <section id="about" class="section">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>I grew up in Kentucky. I moved to Texas in 2011. I love Pokemon. I have a dog named Nala. She is a Husky and Bloodhound mix. I have 2 cats named Onion and Lysander. I also have 9 Whites tree Frogs, 1 Day Gecko, and a Purple Earth Tiger Turantula. I've been in the service industry for 15 years. I currently work at Counter Cafe and a Server and Manager. </p>
+        <div class="content">
+            <section id="about">
+                <div class="section-title">
+                    <h2>About Me</h2>
+                </div>
+                <div class="section-content">
+                    <p>Write a brief description about yourself here.</p>
+                </div>
+            </section>
+            <section id="work">
+                <div class="section-title">
+                    <h2>My Work</h2>
+                </div>
+                <div class="section-content">
+                    <div class="work-item">
+                        <a href="link-to-your-project-1.html">
+                            <img src="project1.jpg" alt="Project 1">
+                            <h3>Project Title 1</h3>
+                        </a>
+                    </div>
+                    <div class="work-item">
+                        <a href="link-to-your-project-2.html">
+                            <img src="project2.jpg" alt="Project 2">
+                            <h3>Project Title 2</h3>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section id="contact">
+                <div class="section-title">
+                    <h2>Contact</h2>
+                </div>
+                <div class="section-content">
+                <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+                <p>Phone: (123) 456-7890</p>
+                </div>
+            </section>
         </div>
-    </section>
-
-    <section id="work" class="section">
-        <ul>
-            <li>
-                <h3>Project 1</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem tempore, eaque maiores nesciunt optio animi nam commodi? Ex, molestiae neque, aperiam obcaecati incidunt asperiores, magni eaque labore aliquid ducimus cum?</p>
-            </li>
-            <li>
-                <h3>Project 2</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At odit quidem excepturi. Nemo velit molestiae, corrupti, eaque voluptate voluptatibus, perferendis reiciendis unde ipsam dolore eligendi eum nulla amet animi ut..</p>
-            </li>
-    </section>
-
-    <section id="contact" class="section">
-        <div class="container">
-            <h2>Contact Me</h2>
-            <p>Email: tm11solarbeam@gmail.com</p>
-            
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Eric Casanova - Portfolio</p>
-        </div>
-    </footer>
-
+    </div>
 </body>
-
 </html>
