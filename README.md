@@ -22,9 +22,9 @@ The project follows a simple structure:
   Casanovas-Portfolio/
 project-root/
 ├── assets/
-│   └── images/
-├── css/
-│   └── style.css
+│   ├── images/
+│   └── css/
+│       └── style.css
 ├── index.html
 ├── LICENSE
 └── README.md
@@ -51,3 +51,13 @@ open index.html
 ### Link to my Portfolio 
 ```bash
 https://sailorvirgo.github.io/Casanovas-Portfolio/
+```
+
+
+## Screenshots
+![image](https://github.com/user-attachments/assets/38c29c96-68c2-4f6a-ad33-4a0b780a9ba9)
+
+## Contact
+
+.·´¯`(>▂<)´¯`·. 
+
