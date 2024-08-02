@@ -10,13 +10,9 @@ body {
     background-color: #333;
     background-image: url(/assets/images/pattern.jpg);
     background-size: cover;
-    /* This makes sure the background covers the whole area */
     background-repeat: no-repeat;
-    /* This prevents the background from repeating */
     background-attachment: fixed;
-    /* This makes the background fixed when scrolling */
     background-position: center;
-    /* This centers the background image */
     color: rgb(56, 228, 56);
     padding: 10px 0;
 }
@@ -60,13 +56,6 @@ nav ul li a:hover {
     border-bottom: 4px solid #ffef0f;
 }
 
-img {
-    
-
-
-
-}
-
 .profile-pic img {
     border-radius: 50%;
     max-width: 150px;
@@ -96,7 +85,7 @@ img {
 }
 
 .section-header {
-    flex: 0 0 200px;
+    /* flex: 0 0 200px; */
     display: flex;
     align-items: baseline;
     justify-content: flex-end;
