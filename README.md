@@ -1,6 +1,6 @@
 # Casanova's Portfolio
 
-Welcome to Eric Casanova's Portfolio! This project showcases various works and provides information about Eric. Below is a detailed index of the sections included in this portfolio.
+Welcome to Eric Casanova's Portfolio! This project showcases various works and provides information about myself. Below is a detailed index of the sections included in this portfolio.
 
 ## Index
 1. [About the Project](#about-the-project)
@@ -46,3 +46,7 @@ To use this project, simply clone the repository and open the `index.html` file 
 git clone git@github.com:SailorVirgo/Casanovas-Portfolio.git
 cd Casanovas-Portfolio
 open index.html
+```
+### Link to my Portfolio 
+```bash
+https://sailorvirgo.github.io/Casanovas-Portfolio/
