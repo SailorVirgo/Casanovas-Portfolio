@@ -17,6 +17,7 @@ body {
     padding: 10px 0;
 }
 
+
 .header-content {
     display: flex;
     justify-content: space-between;
@@ -50,50 +51,58 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    border-bottom: 5px solid #ffef0f;
+    border-bottom: 2px solid #ffef0f;
 }
 
 .profile-pic img {
     border-radius: 50%;
     max-width: 150px;
-    border: 5px solid #ffef0f;
+    border: 10px solid green;
 }
 
 .container {
     display: flex;
     justify-content: center;
     padding: 20px;
+    background-color: green;
 }
 
-.content {
-    display: flex;
+.section-contents {
     width: 100%;
     max-width: 1200px;
 }
 
-.section-titles {
-    width: 20%;
-    padding-right: 20px;
-}
-
-.section-title {
+.section {
+    display: flex;
     margin-bottom: 40px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.section-title h2 {
+.section-header {
+    flex: 0 0 200px;
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-end;
+    padding-right: 20px;
+    border-right: 2px solid #000;
+}
+
+.section-header h2 {
     font-size: 30px;
     margin: 0;
     text-align: right;
 }
 
-.section-contents {
-    width: 80%;
+.section-content {
+    flex: 1;
     padding-left: 20px;
-    border-left: 3px solid #000;
 }
 
-.section-content {
-    margin-bottom: 40px;
+.section-content p {
+    margin-bottom: 20px;
 }
 
 .work-item {
@@ -110,27 +119,29 @@ html {
 }
 
 @media (max-width: 768px) {
-    .content {
+    .section {
         flex-direction: column;
+        align-items: flex-start;
     }
 
-    .section-titles,
-    .section-contents {
+    .section-header {
+        justify-content: center;
+        border-right: none;
+        border-bottom: 2px solid #000;
+        padding-right: 0;
+        padding-bottom: 10px;
+    }
+
+    .section-header h2 {
+        text-align: center;
+    }
+
+    .section-content {
+        padding-left: 0;
+        padding-top: 10px;
+    }
+
+    .work-item.large img {
         width: 100%;
-        padding: 0;
-        border: none;
-    }
-
-    .section-title h2 {
-        text-align: left;
-    }
-
-    .section-title {
-        margin-bottom: 10px;
-    }
-
-    .section-contents {
-        border-top: 3px solid #000;
-        padding-top: 20px;
     }
 }
