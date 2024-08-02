@@ -13,9 +13,10 @@ body {
     background-repeat: no-repeat; /* This prevents the background from repeating */
     background-attachment: fixed; /* This makes the background fixed when scrolling */
     background-position: center; /* This centers the background image */
-    color: #fff;
+    color: rgb(56, 228, 56);
     padding: 10px 0;
 }
+
 
 
 .header-content {
@@ -28,8 +29,9 @@ body {
 
 header h1 {
     font-size: 40px;
-    margin: 0;
-    padding: 0;
+    margin: 0px 10px;
+    padding: 10px;
+    background-color: green;
 }
 
 nav ul {
@@ -51,7 +53,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    border-bottom: 2px solid #ffef0f;
+    border-bottom: 4px solid #ffef0f;
 }
 
 .profile-pic img {
@@ -105,13 +107,59 @@ nav ul li a:hover {
     margin-bottom: 20px;
 }
 
-.work-item {
-    margin-bottom: 20px;
+/* New styles for the project section content and work items */
+#work .section-content {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 8px;
+    margin: 7px;
+    width: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: flex-start;
 }
 
-.work-item.large img {
-    width: 120%;
-    height: auto;
+.work-item {
+    padding: 10px;
+    border-radius: 8px;
+    margin: 7px;
+   
+}
+
+.work-item.large {
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    border-radius: 7px;
+    background-size: cover; /* This makes sure the background covers the whole area */
+    background-repeat: no-repeat; /* This prevents the background from repeating */
+    background-attachment: fixed; /* This makes the background fixed when scrolling */
+    background-position: center; /* This centers the background image */
+    color: #fff;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    background-image: url(/assets/images/social-media-marketing.jpg);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+   
+}
+
+.work-item.large:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+    transition: transform 0.9s ease, box-shadow 0.9s ease;
+}
+
+.section-content.work-item h3 {
+
+margin-top: auto;
+
+}
+
+.work-item.large h3 {
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 html {
