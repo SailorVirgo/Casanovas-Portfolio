@@ -20,13 +20,14 @@ The project follows a simple structure:
 ## File Structure
   ```sh
   Casanovas-Portfolio/
-  ├── assets/
-  │ ├── css/
-  │ │ └── style.css
-  │ ├── images/
-  ├── index.html
-  ├── LICENSE
-  └── README.md
+project-root/
+├── assets/
+│   └── images/
+├── css/
+│   └── style.css
+├── index.html
+├── LICENSE
+└── README.md
   ```
 
 ## Technologies Used
