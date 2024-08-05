@@ -55,7 +55,8 @@ https://sailorvirgo.github.io/Casanovas-Portfolio/
 
 
 ## Screenshots
-![image](https://github.com/user-attachments/assets/38c29c96-68c2-4f6a-ad33-4a0b780a9ba9)
+![Screenshot 2024-08-05 164204](https://github.com/user-attachments/assets/6c118add-15b9-44c7-af48-51c4ea6f7efd)
+
 
 ## Contact
 
