@@ -9,7 +9,7 @@ body {
     flex-direction: column;
     align-items: center;
     background-color: #333;
-    background-image: url('/assets/images/pattern.jpg');
+    background-image: url('/assets/images/background.avif');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -144,7 +144,7 @@ nav ul li a:hover {
     background-position: center;
     color: #fff;
     margin-bottom: 20px;
-    background-image: url('/assets/images/social-media-marketing.jpg');
+    background-image: url('/assets/images/largeimage.jpg');
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
